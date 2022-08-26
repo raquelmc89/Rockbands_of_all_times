@@ -1,0 +1,57 @@
+
+   { 
+    "responseStatus": "SUCCESS",
+    "results" :[
+    {
+      "question":"What song was performed by Ramones?",
+      "wrongAnswers": [ "Allergic to you", "Never ever", "Judy is a punk"],
+      "answer":"Pet sematary"
+    },
+    {
+      "question":"Who is the vocalist of Aerosmith?",
+      "wrongAnswers":["James Hetfield", "Brian Johnson", "Robert Plant"],
+      "answer": "Steven Tyler"
+    },
+    {
+      "question": "Click the correct answer",
+      "wrongAnswers":["Richie Sambora is a member of The Clash", "The Beatles splited in 1980","Alice Cooper was created in 1969"],
+      "answer": "Ozzy Osboune is the vocalist of Black Sabbath"
+    },
+    {
+       "question":  "Which band is the oldest?" ,
+       "wrongAnswers": ["Aerosmith" , "AC/DC", "Guns n/''/' Roses"],
+       "answer" : "Queen"
+    },
+    
+    {
+       "question": "Where is the Band Genesis From?",
+       "wrongAnswers": ["Sweden", "Norway", "EEUU"],
+       "answer":"England"
+    },
+    {
+       "question":"What song is from Alice Cooper?",
+       "wrongAnswers":["Home sweet home", "Stairway to heaven", "Highway to hell"],
+       "answer":"Hey stoopid"
+    },
+    {
+       "question":"What album is from Pink Floyd?",
+       "wrongAnswers":["Abbey road", "Paranoid", "Who is next"],
+       "answer":"The wall"
+    },
+    {
+      "question":"Who is the leader of The Cure?",
+      "wrongAnswers":["Brian Johnson", "Glenn Frey", "Joe Elliott"],
+      "answer":"Robert Smith"
+    },
+    {
+      "question": "Who is a member of Montley Crüe?",
+      "wrongAnswers":["Robert Smith","Ray Wilson", "Joke Berg"],
+      "answer":"Nicky Sixx"
+    },
+    {
+     "question":"What band has been live for the longest period of time?",
+     "wrongAnswers": ["AC/DC", "The Who", "KISS"],
+     "answer":"The Rolling Stones"
+    }
+    ]
+   }
