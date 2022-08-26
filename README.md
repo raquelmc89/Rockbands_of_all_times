@@ -11,8 +11,15 @@ to create this quiz I have used HTML5, CSS3 and Javascript.
 
 It was my first project using JavaScript so I had to look for a lot of help, some good resources ive been using are:
 
-*[w3schools](https://www.w3schools.com) : great page to learn javascript algorithms and data structures
- 
+* [w3schools](https://www.w3schools.com) : great page to learn javascript algorithms and data structures.
+
+* [JavaScript](https://www.javascript.com): to learn from very basic to more complicated coding.
+
+* [Stack overflow](https://stackoverflow.com): good forum.
+
+* [Just answer](https://www.justanswer.co.uk): one-on-one help.
+
+* [JESON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON): to learn all about JSON.
  
  
  
