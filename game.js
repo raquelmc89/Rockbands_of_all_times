@@ -68,7 +68,7 @@ getNewQuestion = () => {
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
         //go to the end page
-        return window.location.assign('/end.html');
+        return window.location.assign('end.html');
     }
     /*if the questions is 0 or get to maximum, the most recent score will be storaged locally.
      when questions finish then it will appear end.html*/
