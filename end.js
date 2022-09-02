@@ -1,7 +1,7 @@
 const username = document.getElementById('username');
 const saveScoreBtn = document.getElementById('saveScoreBtn');
 const finalScore = document.getElementById('finalScore');
-
+const highScore = document.getElementById('highScore');
 // check the database to see the most recent score of this user
 const mostRecentScore = localStorage.getItem('mostRecentScore');
 
