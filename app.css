@@ -136,3 +136,19 @@ body {
     color: #aaa;
   }
   
+/* HIGH SCORES*/
+
+#scores{
+  display: flex;
+  font-size: 0.2rem;
+  flex-direction: column;
+  margin-bottom: 10rem;
+}
+
+#highScore, #username {
+  margin-right: 4rem;
+  color: rgb(180, 47, 47);
+
+}
+
+

@@ -1,4 +1,4 @@
-const username = document.getElementById('username');
+const username = document.getElementById('usernames');
 const saveScoreBtn = document.getElementById('saveScoreBtn');
 const finalScore = document.getElementById('finalScore');
 const highScore = document.getElementById('highScore');
