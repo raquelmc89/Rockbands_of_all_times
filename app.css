@@ -3,7 +3,9 @@
 body {
   background-image: url("Classic_Rock_Bands.jpeg");
   background-repeat: repeat;
-  
+  width: 100%;
+  background-size: cover;
+
 
 }
 :root {
@@ -53,7 +55,7 @@ body {
   
   .container {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
