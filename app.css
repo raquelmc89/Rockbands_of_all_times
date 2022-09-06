@@ -5,8 +5,7 @@ body {
   background-repeat: repeat;
   width: 100%;
   background-size: cover;
-
-
+  
 }
 :root {
     background-color: #ecf5ff;
@@ -19,7 +18,7 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-
+    
   }
   
   h1,
@@ -55,18 +54,19 @@ body {
   
   .container {
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 80rem;
     margin: 0 auto;
     padding: 2rem;
-    
+  
   }
   
   .container > * {
     width: 100%;
+    
   }
   
   .flex-column {
