@@ -7,6 +7,8 @@
 body {
   background-image: url("Classic_Rock_Bands.jpeg");
   background-repeat: repeat;
+  width: 100%;
+  background-size: cover;
 
 }
 
