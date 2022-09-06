@@ -154,3 +154,9 @@ body {
 }
 
 
+@media only screen and (orientation: portrait)
+                   and (min-width:768px ) {
+  .contanier {
+    height: 100vh;
+  }
+}
