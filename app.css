@@ -154,11 +154,3 @@ body {
   color: rgb(180, 47, 47);
 
 }
-
-
-@media only screen and (orientation: portrait)
-                   and (min-width:768px ) {
-  .contanier {
-    height: 100vh;
-  }
-}

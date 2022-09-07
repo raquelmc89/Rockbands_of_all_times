@@ -19,7 +19,7 @@
     },
     {
        "question":  "Which band is the oldest?" ,
-       "wrongAnswers": ["Aerosmith" , "AC/DC", "Guns n/''/' Roses"],
+       "wrongAnswers": ["Aerosmith" , "AC/DC", "Guns n' Roses"],
        "answer" : "Queen"
     },
     

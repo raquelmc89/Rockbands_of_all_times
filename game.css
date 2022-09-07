@@ -23,15 +23,15 @@ body {
   
   .choice-container:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    box-shadow: 0 0.4rem 1.4rem 0  rgb(180, 47, 47);;
     transform: translateY(-0.1rem);
     transition: transform 150ms;
-    background-color: #bfdefa;
+    background-color:  rgb(180, 0, 0, 0.2);;
   }
   
   .choice-prefix {
     padding: 1.5rem 2.5rem;
-    background-color: #56a5eb;
+    background-color:  rgb(180, 0, 0, 0.5);;
     color: white;
   }
   
@@ -65,7 +65,7 @@ body {
   
   .hud-main-text {
     text-align: center;
-    color: #1271c4;
+    color:  rgb(180, 47, 47);
 
   }
   
