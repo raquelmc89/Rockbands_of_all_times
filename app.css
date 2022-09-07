@@ -1,5 +1,7 @@
 
-
+.background{
+  height: 100vh;
+}
 body {
   background-image: url("Classic_Rock_Bands.jpeg");
   background-repeat: repeat;
