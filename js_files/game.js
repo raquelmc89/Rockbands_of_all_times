@@ -14,7 +14,7 @@ let availableQuesions = [];
 let questions = [];
 
 fetch(
-    'questions.json'
+    '../questions.json'
 )//fetch the file and returns a promise that resolves with response object
     .then((res) => {
         return res.json();
@@ -22,7 +22,6 @@ fetch(
     to extract body content I use second response*/
     .then((loadedQuestions) => {
 
-        //????
             questions = loadedQuestions.results.map(
                 (resultQuestion) => {
                 const formattedQuestion = {question: resultQuestion.question, answer: Math.floor(Math.random() * 4) + 1 };
@@ -33,7 +32,7 @@ fetch(
                     0,
                     resultQuestion.answer
                 );
-                //????
+        
                 answerChoices.forEach((choice, index) => {
                     formattedQuestion['choice' + (index + 1)] = choice;
                 });
@@ -42,7 +41,7 @@ fetch(
             });
     
             console.log("questions", questions);
-            //loop but...where is choice coming from?, why index + 1?
+            
             startGame();
         })
         .catch((err) => {
@@ -68,7 +67,7 @@ getNewQuestion = () => {
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
         //go to the end page
-        return window.location.assign('end.html');
+        return window.location.assign('../html_files/end.html');
     }
     /*if the questions is 0 or get to maximum, the most recent score will be storaged locally.
      when questions finish then it will appear end.html*/
