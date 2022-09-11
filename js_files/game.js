@@ -14,7 +14,7 @@ let availableQuesions = [];
 let questions = [];
 
 fetch(
-    "questions.json"
+    "../questions.json"
 )//fetch the file and returns a promise that resolves with response object
     .then((res) => {
         return res.json();
