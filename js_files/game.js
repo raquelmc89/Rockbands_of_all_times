@@ -47,7 +47,7 @@ fetch(
         .catch((err) => {
             console.error(err);
         });
- //if it doesnt work then an error will appear in the console
+
 //CONSTANTS
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 10;
@@ -86,7 +86,7 @@ getNewQuestion = () => {
         choice.innerText = currentQuestion['choice' + number];//show the questions with their answers.
     });
 
-    availableQuesions.splice(questionIndex, 1);//??
+    availableQuesions.splice(questionIndex, 1);
     acceptingAnswers = true;
 };
 // function to get the right answer

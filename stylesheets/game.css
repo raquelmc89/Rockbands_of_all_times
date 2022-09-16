@@ -23,10 +23,10 @@ body {
   
   .choice-container:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0  rgb(180, 47, 47);;
+    box-shadow: 0 0.4rem 1.4rem 0  rgb(180, 47, 47);
     transform: translateY(-0.1rem);
     transition: transform 150ms;
-    background-color:  rgb(180, 0, 0, 0.2);;
+    background-color:  rgb(180, 0, 0, 0.2);
   }
   
   .choice-prefix {
