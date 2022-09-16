@@ -69,7 +69,7 @@ getNewQuestion = () => {
         //go to the end page
         return window.location.assign('../html_files/end.html');
     }
-    /*if the questions is 0 or get to maximum, the most recent score will be storaged locally.
+    /*if the questions have finished or get to maximum counter, the most recent score will be storaged locally.
      when questions finish then it will appear end.html*/
     questionCounter++;
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
